@@ -4,7 +4,7 @@ Model simulation code for Gao et al "Cerebellar plasticity controls seconds-long
 
 Model Architecture:
 
-  readout/cortex -> fixed random GC input weights
+  readout/cortex -> provides input to GC via fixed random input weights
   
   GC temporal basis: alpha-like temporal filtering with tau spanning 0.1-2 s
   
