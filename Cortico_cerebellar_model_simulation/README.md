@@ -6,7 +6,7 @@ Model Architecture:
 
   readout/cortex -> provides input to GC via fixed random input weights
   
-  GC temporal basis: alpha-like temporal filtering with tau spanning 0.1-2 s
+  GC temporal basis: alpha-like temporal filtering with tau spanning 0.1-3 s
   
   GC -> 2 PCs through trainable weights using only LTD
   
